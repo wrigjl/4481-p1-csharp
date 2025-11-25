@@ -1,4 +1,4 @@
 {   "name": "C# (.NET)",
     "image": "mcr.microsoft.com/devcontainers/dotnet:8.0",
-    "postCreateCommand": "apt-get update && apt-get install -y antlr4 antlr4-doc git-lfs"
+    "postCreateCommand": "sudo apt-get update && sudo apt-get install -y antlr4 antlr4-doc git-lfs"
 }
